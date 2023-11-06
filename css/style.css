@@ -527,7 +527,7 @@ section.tradebg .Container .Left .closeup {
 }
 
 section.tradebg .Container .Left .promise{
-  background: url("/images/promise.jpg");
+  background-image: url(../images/promise.jpg);
   width: 180px;
   height: 140px;
   scale: 1.4;
