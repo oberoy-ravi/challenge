@@ -80,7 +80,7 @@ section.Hero .Hero__Container .head3 {
 section.Intro {
   height: 100vh;
   width: 100%;
-  background: url("/images/earth.jpg");
+  background-image: url(../images/earth.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -184,7 +184,7 @@ section.Intro .Bars .Bar4 {
 }
 
 section.Vision {
-  background: url("/images/slumV1.jpg");
+  background-image: url(../images/slumV1.jpg);
   width: 100%;
   height: 100vh;
   color: white;
@@ -242,7 +242,7 @@ section.Vision .Container h1 {
   margin-bottom: 5vh;
 }
 section.Vision .Container .Right .BigCircle {
-  background: url("/images/TempleEnv.jpg");
+  background-image: url(../images/TempleEnv.jpg);
   width: 600px;
   height: 600px;
   background-repeat: no-repeat;
@@ -253,7 +253,7 @@ section.Vision .Container .Right .BigCircle {
   position: relative;
 }
 section.Vision .Container .Right .BigCircle .SmallCircle {
-  background: url("/images/slumV2.jpg");
+  background-image: url(../images/slumV2.jpg);
   width: 200px;
   height: 200px;
   background-repeat: no-repeat;
@@ -276,7 +276,7 @@ section.Vision .Plate1 .Tag {
 }
 
 .Technology {
-  background: url("/images/ship.jpg");
+  background-image: url(../images/ship.jpg);
   width: 100%;
   height: 100vh;
   color: white;
@@ -376,7 +376,7 @@ section.Vision .Plate1 .Tag {
 }
 
 .Integration {
-  background: url("/images/TempleEnv.jpg");
+  background-image: url(../images/TempleEnv.jpg);
   width: 100%;
   height: 100vh;
   color: white;
@@ -404,7 +404,7 @@ section.Vision .Plate1 .Tag {
   align-items: center;
 }
 .Integration .Container .Left .BigCircle {
-  background: url("/images/caveV2.jpg");
+  background-image: url(../images/caveV2.jpg);
   width: 600px;
   height: 600px;
   background-repeat: no-repeat;
@@ -440,7 +440,7 @@ section.Vision .Plate1 .Tag {
 }
 
 .Economy {
-  background: url("/images/economy.jpg");
+  background-image: url(../images/economy.jpg);
   width: 100%;
   height: 100vh;
   color: white;
@@ -513,7 +513,7 @@ section.Vision .Plate1 .Tag {
 /* MYYYYYYYYYYYYYYYYYYYYYYY */
 
 section.tradebg .Container .Left .closeup {
-  background: url("/images/closeup.jpg");
+  background-image: url(../images/closeup.jpg);
   width: 600px;
   height: 300px;
   background-repeat: no-repeat;
@@ -552,7 +552,7 @@ section.tradebg .Container .Left .promise{
 
 } */
 section.tradebg .Container .Left .caveV2{
-  background: url("/images/caveV2.jpg");
+  background-image: url(../images/caveV2.jpg);
   width: 180px;
   height: 140px;
   scale: 1.4;
@@ -567,7 +567,7 @@ section.tradebg .Container .Left .caveV2{
   /*transform: rotateX(35deg) rotateY(7deg); */
 }
 .tradebg{
-    background: url("/images/closeup.jpg");
+    background-image: url(../images/closeup.jpg);
     width: 100%;
     height: 100vh;
     color: white;
