@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+:root {
+    --DefaultTextColor: black;
+
+    /* Font Size */
+    --Fontsize-xxxl: 8rem;
+    --Fontsize-ll: 4.25rem;
+    --Fontsize-xxl: 3rem;
+    --Fontsize-xll: 2rem;
+    --Fontsize-xl: 1.5rem;
+    --Fontsize-lg: 1.25rem;
+    --Fontsize-md: 1rem;
+    --Fontsize-sm: 0.875rem;
+    --Fontsize-xs: 0.75rem;
+
+}
+
+* {
+    font-family: Orbitron;
+    line-height: 1ch;
+}
+
+
+a {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+
+}
+
+.buttonV1 {
+    background: black;
+    text-decoration: none;
+    color: white;
+    transition: .2s all;
+}
+
+.buttonV1:hover {
+    background: white;
+    color: black;
+}
+
+
+.MoreInfo {
+    display: flex;
+    color: black;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0;
+    font-weight: bold;
+    font-size: var(--Fontsize-lg);
+    border-radius: 50px;
+    width: 100%;
+    max-width: 220px;
+
+    padding: 1rem 0;
+    transition: .2s all;
+    position: relative;
+}
+
+.MoreInfo>span {
+    width: 35px;
+    background: #000;
+    aspect-ratio: 1/1;
+
+    border-radius: 50%;
+    margin-left: 1rem;
+    position: absolute;
+    right: 5%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MoreInfo>span>svg {
+    position: relative;
+    right: -10%;
+    width: 15px;
+}
+
+.MoreInfo:hover {
+    scale: 102%;
+    background: #000;
+    color: white;
+    box-shadow: 1px -1px 41px -5px rgba(255,255,255,0.2);
+    -webkit-box-shadow: 1px -1px 41px -5px rgba(255,255,255,0.2);
+    -moz-box-shadow: 1px -1px 41px -5px rgba(255, 255, 255, 0.2);
+}
